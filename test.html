@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather and Photo APP!</title>
+</head>
+<body>
+    <form id="weatherForm" action="" method="get">
+           City: <input id="weatherInput" type="text" name="city"><br>
+            <input id="weatherSubmit" type="submit" value="Submit">
+        </form>
+    <h1>Weather for Seattle</h1>
+    <div> Seattle Weather Report: <br />
+        Temperature (in kelvin unit) = 281.2<br />
+        Atmospheric pressure (in hPa unit) = 1002 <br />
+        Humidity (in percentage) = 81 <br />
+        Weather Description: Overcast Clouds<br />
+    </div>
+    <h1>Daily Photos Based on the Weather Report</h1>
+    <a href="https://source.unsplash.com/daily?Seattle"><img src="https://source.unsplash.com/daily?Seattle" alt="city photo" width="400" height="300"/></a>
+    <a href="https://source.unsplash.com/daily?overcast+clouds"><img src="https://source.unsplash.com/daily?overcast+clouds" alt="weather photo" width="400" height="300"/></a>
+    <h1>Weekly Photos Based on the Weather Report</h1>
+    <a href="https://source.unsplash.com/weekly?Seattle"><img src="https://source.unsplash.com/weekly?Seattle" alt="city photo" width="400" height="300"/></a>
+    <a href="https://source.unsplash.com/weekly?overcast+clouds"><img src="https://source.unsplash.com/weekly?overcast+clouds" alt="weather photo" width="400" height="300"/></a>
+</body>
+</html>

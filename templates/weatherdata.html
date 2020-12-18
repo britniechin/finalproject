@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather & Photo APP</title>
+</head>
+<body>
+<h1>Weather Data and Photo Inspired App </h1>
+    <h2>Weather for {{city_name}}</h2>
+            Temperature (in kelvin unit) = {{current_temperature}}<br />
+            Atmospheric pressure (in hPa unit) = {{current_pressure}} <br />
+            Humidity (in percentage) = {{current_humidity}} <br />
+            Weather Description: {{weather_description}} <br />
+        </div>
+        <h2>Daily Photos Based on Weather Report</h2>
+        <a href="{{dailylocation}}"><img src="{{dailylocation}}" alt="daily city photo" width="400" height="320"/></a>
+        <a href="{{dailyweather}}"><img src="{{dailyweather}}" alt="daily weather photo" width="400" height="320"/></a>
+        <h2>Weekly Photos Based on Weather Report</h2>
+        <a href="{{url}}"><img src="{{url}}" alt="weekly city photo" width="400" height="320"/></a>
+        <a href="{{weatherURL}}"><img src="{{weatherURL}}" alt="weekly weather photo" width="400" height="320"/></a>
+</body>
+</html>
